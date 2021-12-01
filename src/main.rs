@@ -1,9 +1,11 @@
 mod utils;
 
-fn main() {
-    let input = utils::load_input_as_strings(1, true);
+mod day1;
 
-    for number in input {
-        println!("{}", number);
-    }
+fn main() {
+    // Day 1
+    println!("Day 1 results");
+    let input = utils::load_input_and_parse::<u16>(1, false);
+    day1::solve(input);
+
 }
