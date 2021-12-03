@@ -2,6 +2,7 @@ mod utils;
 
 mod day1;
 mod day2;
+mod day3;
 
 fn main() {
     // Day 1
@@ -14,4 +15,8 @@ fn main() {
     let input = utils::load_input_as_strings(2, false);
     day2::solve(input);
 
+    // Day 3
+    println!("Day 3 results");
+    let input = utils::load_input_as_strings(3, false);
+    day3::solve(input);
 }
