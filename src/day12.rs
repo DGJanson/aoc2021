@@ -50,7 +50,7 @@ fn one_dive (hm: &HashMap<String, Cave>, que: &mut VecDeque<String>, mut score: 
 
     score
 }
-
+/*
 fn two_dive (hm: &HashMap<String, Cave>, que: &mut VecDeque<String>, allow_double: bool, mut score: usize) -> usize {
     if !que.is_empty() {
 
@@ -83,7 +83,7 @@ fn two_dive (hm: &HashMap<String, Cave>, que: &mut VecDeque<String>, allow_doubl
 
     score
 }
-
+*/
 
 
 struct Cave {
