@@ -13,6 +13,7 @@ mod day10;
 mod day11;
 mod day12;
 mod day13;
+mod day14;
 
 fn main() {
 
@@ -82,4 +83,9 @@ fn main() {
     println!("Day 13 results");
     let input = utils::load_input_as_strings(13, false);
     day13::solve(input);
+
+    // Day 14
+    println!("Day 14 results");
+    let input = utils::load_input_as_strings(14, false);
+    day14::solve(input);
 }
