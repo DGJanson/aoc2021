@@ -1,3 +1,4 @@
+/*
 use std::collections::HashMap;
 
 pub fn solve (input: Vec<String>) {
@@ -17,7 +18,6 @@ fn solve_rounds (input: &Vec<String>, rounds: usize) {
     for i in 0..rounds {
         println!("Starting round {}", i);
         polymer = do_insertions(polymer, &instructions);
-        println!("{:#?}", polymer);
 
     }
     println!("Score after {} rounds = {}", rounds, calc_score(&polymer));
@@ -130,3 +130,4 @@ fn create_start_polymer (line: &String) -> HashMap<String, usize> {
 
     result
 }
+*/
